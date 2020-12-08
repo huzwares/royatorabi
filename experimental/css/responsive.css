@@ -1,0 +1,39 @@
+@media only screen and (min-width: 200px) and (max-width: 500px) {}
+
+
+/*			tablet and ipad size		*/
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+    .productSliderImageThumb {
+        margin-left: 0;
+    }
+    .productSliderImageThumb ul {
+        padding: 0;
+        margin: 0;
+        font-size: 0;
+        text-align: right;
+    }
+    .productSliderImageThumb ul li {
+        width: 100px;
+        padding: 0;
+        margin: 10px 0 0 10px;
+        display: inline-block;
+        list-style: none;
+        background: #efefef;
+    }
+}
+
+
+/* Smartphones (landscape) ----------- */
+
+@media only screen and (min-device-width: 321px) and (orientation: landscape) {}
+
+
+/*			IPAD SIZE MAX 		*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+
+/*			DESKTOP SIZE 		*/
+
+@media only screen and (min-width: 992px) {}
